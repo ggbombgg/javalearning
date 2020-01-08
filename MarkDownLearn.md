@@ -1,3 +1,4 @@
+发现有毒，在有道云笔记写的，Markdown编辑左右对照的，在github自动把写的代码变成了html，此文件作废
 以下是copy菜鸟教程的，markdown入门,发现很多软件提供了下面没有的支持，比如有道云有插入流程图等
 # markdown learn
 # 1.段落的换行是使用两个以上空格加上回车 
@@ -8,16 +9,7 @@
 标题一
 ===
 标题二
-```
-gantt
-dateFormat YYYY-MM-DD
-section S1
-T1: 2014-01-01, 9d
-section S2
-T2: 2014-01-11, 9d
-section S3
-T3: 2014-01-02, 9d
-```
+
 ------
 # 标题
 ## 标题
