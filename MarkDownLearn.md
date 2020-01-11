@@ -350,3 +350,9 @@ $$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 
 
+aaa[^1]sadsa[^2]
+
+[^1]:fasfs1
+[^2]:asdasd
+
+
