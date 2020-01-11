@@ -74,9 +74,9 @@ github脚注不显示?
 脚注标签不能有空格？拉到底部就看到脚注了[^helloworld]  
 [^helloworld]: 我是helloworld  
 ```
-aaa[^1]
+创建脚注格式类似这样 [^RUNOOB]
 
-[^1]:fasfs1
+[^RUNOOB]: www.baidu.com
 # 6.markdown 列表  
 
 ##### Markdown支持有序列表和无序列表。无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：  
