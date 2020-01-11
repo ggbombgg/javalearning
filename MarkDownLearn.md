@@ -3,7 +3,7 @@
 <a name="myfootnote1">1</a>: Footnote content goes here
 然后在文档中的其他地方引用
 
-<sup>[1](#myfootnote1)</sup>
+
 
 # markdown learn
 # 1.段落的换行是使用两个以上空格加上回车 
@@ -66,17 +66,14 @@
 
 ### 脚注  
 ```
-github脚注不显示?
-创建脚注格式类似这样 [^RUNOOB].  
+github脚注不一样?表示竟然是网页跳转。。。
+创建脚注格式类似这样 [^RUNOOB]
 
 [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
-
-脚注标签不能有空格？拉到底部就看到脚注了[^helloworld]  
-[^helloworld]: 我是helloworld  
 ```
 创建脚注格式类似这样 [^RUNOOB]
 
-[^RUNOOB]: www.baidu.com
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
 # 6.markdown 列表  
 
 ##### Markdown支持有序列表和无序列表。无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：  
@@ -315,7 +312,7 @@ Markdown 使用了很多特殊符号来表示特定的意义，如果需要显�
 
 **文本加粗**   
 \*\* 正常显示星号 \*\*
-
+<sup>[1](#myfootnote1)</sup>
 Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
 ```
 \   反斜线
