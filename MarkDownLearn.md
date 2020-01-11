@@ -1,4 +1,3 @@
-发现有毒，在有道云笔记写的，Markdown编辑左右对照的，在github自动把写的代码变成了html，此文件作废
 以下是copy菜鸟教程的，markdown入门,发现很多软件提供了下面没有的支持，比如有道云有插入流程图等
 # markdown learn
 # 1.段落的换行是使用两个以上空格加上回车 
@@ -184,7 +183,7 @@ Markdown 区块引用是在段落开头使用 > 符号 ，然后后面紧跟一�
 # 8.markdown代码
 
 * 如果是段落上的一个函数或片段的代码可以用反引号把它包起来（\`），例如:  
-/`printf()/` :`printf()`
+\`printf()\` :`printf()`
 
 * 代码区块  
 代码区块使用 4 个空格或者一个制表符（Tab 键）。（表示列表后面需要加个空行，原因不明,可能是换行表示结束列表头）
@@ -194,9 +193,9 @@ Markdown 区块引用是在段落开头使用 > 符号 ，然后后面紧跟一�
     System.out.println("helloworld");
 
 你也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：
-//`//`//`java
+\`\`\`java
 System.out.println("helloworld");
-//`//`//`
+\`\`\`
 
 ```java
 System.out.println("helloworld");
@@ -214,10 +213,19 @@ System.out.println("helloworld");
 ```
 
 这是一个链接 [百度](https://www.baidu.com)
-
+```
 <https://www.baidu.com>
-
+```
 ### 高级链接
+```
+链接也可以用变量来代替，文档末尾附带变量地址：
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+[1]: http://www.google.com/
+[runoob]: http://www.runoob.com/
+```
 链接也可以用变量来代替，文档末尾附带变量地址：
 这个链接用 1 作为网址变量 [Google][1]
 这个链接用 runoob 作为网址变量 [Runoob][runoob]
@@ -238,7 +246,7 @@ Markdown 图片语法格式如下：
 * 开头一个感叹号!
 * 接着一个方括号，里面放上图片的替代文字
 * 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。
-
+```
 ![图标](http://static.runoob.com/images/runoob-logo.png "picture")
 
 当然，你也可以像网址那样对图片网址使用变量:
@@ -247,11 +255,20 @@ Markdown 图片语法格式如下：
 然后在文档的结尾位变量赋值（网址）
 
 [2]: http://static.runoob.com/images/runoob-logo.png
+```
+![图标](http://static.runoob.com/images/runoob-logo.png "picture")
 
+当然，你也可以像网址那样对图片网址使用变量:
 
-Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 ```<img> ```标签（有道云笔记不显示，我也不清楚）  
+这个链接用 2 作为网址变量 [RUNOOB][2].
+然后在文档的结尾位变量赋值（网址）
+
+[2]: http://static.runoob.com/images/runoob-logo.png
+Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 ```<img> ```标签（有道云笔记不显示，我也不清楚）
+```
 <img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
-
+```
+<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
 # 10.Markdown 表格
 
 Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
@@ -272,12 +289,16 @@ Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔�
 :-: 设置内容和标题栏居中对齐
 
 实例如下：
-
+```
 | 左对齐 | 右对齐 | 居中对齐 |
 | :-----| ----: | :----: |
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |
-
+```
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 
 # 10.Markdown高级技巧
 
 ###支持的 HTML 元素
