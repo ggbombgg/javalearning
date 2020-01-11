@@ -1,6 +1,9 @@
 以下是copy菜鸟教程的，markdown入门,发现很多软件提供了下面没有的支持，比如有道云有插入流程图等
 
-<sup>1</sup>
+<a name="myfootnote1">1</a>: Footnote content goes here
+然后在文档中的其他地方引用
+
+<sup>[1](#myfootnote1)</sup>
 
 # markdown learn
 # 1.段落的换行是使用两个以上空格加上回车 
