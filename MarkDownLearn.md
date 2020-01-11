@@ -73,7 +73,7 @@ github脚注不一样?表示竟然是网页跳转。。。
 ```
 创建脚注格式类似这样 [^RUNOOB]
 
-[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+[^RUNOOB]: sadsa
 # 6.markdown 列表  
 
 ##### Markdown支持有序列表和无序列表。无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：  
@@ -341,10 +341,5 @@ $$
 $$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 
-
-aaa[^1]sadsa[^2]
-
-[^1]:fasfs1
-[^2]:asdasd
 
 
